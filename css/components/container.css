@@ -1,0 +1,25 @@
+.container {
+	width: auto;
+	margin: 0px auto; 
+}
+
+.basic{
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    width: 375px;
+  }
+}
